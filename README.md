@@ -6,7 +6,7 @@ Simple application to download and apply OTA packages.
 Server requirements
 -------------------
 The app sends `GET` requests to the URL defined by the `updater_server_url`
-resource (or the `lineage.updater.uri` system property) and expects as response
+resource (or the `lineage.updater.uri` system property) and expects as response, you can find this string on the values folder in this app.
 a JSON with the following structure:
 ```json
 {
@@ -15,10 +15,10 @@ a JSON with the following structure:
       "datetime": 1230764400,
       "filename": "ota-package.zip",
       "id": "5eb63bbbe01eeed093cb22bb8f5acdc3",
-      "romtype": "nightly",
+      "romtype": "unofficial",
       "size": 314572800,
       "url": "https://example.com/ota-package.zip",
-      "version": "15.1"
+      "version": "3.0.0-t"
     }
   ]
 }

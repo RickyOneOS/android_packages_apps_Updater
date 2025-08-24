@@ -7,7 +7,7 @@ Server requirements
 -------------------
 The app sends `GET` requests to the URL defined by the `updater_server_url`
 resource (or the `lineage.updater.uri` system property) and expects as response, you can find this string on the values folder in this app.
-a JSON with the following structure:
+you should create a JSON with the following structure:
 ```json
 {
   "response": [
